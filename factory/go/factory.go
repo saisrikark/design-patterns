@@ -1,5 +1,5 @@
 package main
 
-type Factory interface {
+type ShapeFactory interface {
 	Create(shapeType string) Shape
 }

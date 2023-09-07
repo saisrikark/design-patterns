@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	cf := ConcreteFactory{}
+	cf := ShapeConcreteFactory{}
 	shapeTypes := [4]string{"CIRCLE", "SQUARE", "RECTANGLE", "JINKAMARINA"}
 
 	for _, shapeType := range shapeTypes {
