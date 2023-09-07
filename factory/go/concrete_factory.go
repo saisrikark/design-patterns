@@ -1,9 +1,9 @@
 package main
 
-type ConcreteFactory struct {
+type ShapeConcreteFactory struct {
 }
 
-func (cf ConcreteFactory) Create(shapeType string) Shape {
+func (cf ShapeConcreteFactory) Create(shapeType string) Shape {
 	switch {
 	case shapeType == "CIRCLE":
 		return &Circle{}
