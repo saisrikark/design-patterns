@@ -6,6 +6,7 @@ It helps in determining which kind of object is to be created.<br />
 There are four elements to this pattern.<br />
 </p>
 
+Elements
 1. Factory provides the signature to create a factory
 2. Conrete Factory is the implementation of a factory
 3. Product is the signature of the object
